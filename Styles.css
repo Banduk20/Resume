@@ -1,0 +1,192 @@
+    header {
+        position: sticky;
+            top: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     margin-top: 3%;
+     margin-bottom: 3%;
+           background-color: lightgray;
+   
+    }
+
+   
+
+    nav ul {
+        list-style: none;
+        padding: 0px;
+        margin: 15px;
+        display: flex;
+        align-items: center;
+    }
+
+    nav li {
+        margin-right: 15px;
+margin-left: 50px;
+    }
+
+li a{
+    color: black;
+
+    text-decoration: none;
+}
+
+ .thispage
+ {
+ background-color: rgb(233, 232, 232);
+    border: 4px solid lightgray;
+    border-radius: 25%;
+   padding-right: 5px; 
+padding-left: 5px;
+padding-top: 3px;
+padding-bottom: 3px;
+}
+
+
+.openModalBtn {
+    margin-right: 15px;
+    /* Задає відстань між кнопкою і останнім пунктом меню */
+}
+
+
+body{
+    
+        margin-top: 3%;
+  
+    text-align: center;
+    
+        font-family: "Lora", serif;
+        font-size: 1.7rem;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1.882;
+   
+ }
+
+
+  
+  .name{
+    text-align: center;
+    margin:3%;
+
+  }
+  
+  
+.modal {
+    display: none;
+    position: fixed;
+    top: 20%;
+    right: 5%;
+   
+    width: 20%;
+   
+    height: 100%;
+    
+}
+
+.modal-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%;
+    color: black;
+    font-size: 20px;
+    border-radius: 5%;
+}
+
+address{
+    text-decoration: underline;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+p a{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.but
+{
+ 
+
+ background-color: black;
+ color:white;
+border-radius: 7px;
+font-size: 20px;
+
+}
+
+
+.phome
+{
+margin: 0 center;
+
+width: 60%;
+text-align: center;
+margin-left: 15%;
+margin-right: 5%;
+
+}
+
+.phome1
+{
+background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 7px;
+
+    font-size: 20px;
+    width: 30%;
+        text-align: center;
+    margin-left: 10%;
+        margin-right: 5%;
+}
+
+
+ .image-container img {
+
+     margin: 30px center;
+   margin-left: 15%;
+    width: 100px;
+    height: auto;
+
+ }
+
+ .aboutadd{
+    color: black;
+    font-style: italic;
+        text-decoration: none;
+ }
+
+.firtstimg img
+{
+    margin: 30px center;
+   margin-left: 10%;
+margin-right: 10%;
+    width: 300px;
+    height: auto;
+}
+
+.secpart  {
+    display: flex;
+margin: 30px center;
+margin-left:15% ;
+margin-right: 15%;
+
+text-align: center;
+    width: 950px;
+    height: auto;
+    
+}
+
+.in{
+    padding-left: 10px;
+        padding-right: 10px;
+}
+
